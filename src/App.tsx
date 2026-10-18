@@ -198,8 +198,7 @@ export const App: React.FC = () => {
               Credentials
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-              <li style={{ cursor: 'pointer' }} onClick={() => setCurrentView('account')}>Skills Passport Portal</li>
-              <li style={{ cursor: 'pointer' }} onClick={() => setCurrentView('account')}>Subscription Billing & Cancel</li>
+              <li style={{ cursor: 'pointer' }} onClick={() => setCurrentView('account')}>Candidate Skills Portal</li>
               <li>Employer Verification Portal</li>
               <li>Cryptographic Seal Standard</li>
             </ul>
